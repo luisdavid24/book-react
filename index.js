@@ -9,6 +9,7 @@ import Book from "./components/book";
 import Psicoanalista from "./components/psicoanalista";
 import Psicoanalista2 from "./components/psicoanalista2";
 import Tiempo from "./components/tiempo";
+import Crazy from "./components/crazy";
 const container = document.getElementById('app');
 
-ReactDOM.render(<Tiempo/>, container);
+ReactDOM.render(<Crazy/>, container);
