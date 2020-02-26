@@ -11,6 +11,7 @@ import Psicoanalista2 from "./components/psicoanalista2";
 import Tiempo from "./components/tiempo";
 import Crazy from "./components/crazy";
 import Cyanide from "./components/cyanide";
+import Dead from "./components/dead";
 const container = document.getElementById('app');
 
-ReactDOM.render(<Cyanide/>, container);
+ReactDOM.render(<Dead/>, container);
