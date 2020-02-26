@@ -15,8 +15,8 @@ class crazy extends React.Component{
             <div className="container2">
                 <img src={loco} className="image2"></img>
                 <div className="text">
-                    <h3>Time to kill</h3>
-                    <p>This book is about a serial killer that kills women. It's a very interesting story. </p>
+                    <h3>The crazy story</h3>
+                    <p>It's a story of a murder in a mental hospital.All the story is interesting </p>
                 </div>
 
 
