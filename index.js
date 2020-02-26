@@ -10,6 +10,7 @@ import Psicoanalista from "./components/psicoanalista";
 import Psicoanalista2 from "./components/psicoanalista2";
 import Tiempo from "./components/tiempo";
 import Crazy from "./components/crazy";
+import Cyanide from "./components/cyanide";
 const container = document.getElementById('app');
 
-ReactDOM.render(<Crazy/>, container);
+ReactDOM.render(<Cyanide/>, container);
