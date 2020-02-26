@@ -1,0 +1,19 @@
+.menu{
+    background-color: rgb(153, 88, 214);
+    color:white;
+    display: flex;
+}
+.title{
+    margin-right: 3em;
+    text-decoration: none;
+    margin-top: 1em;
+}
+ul{
+    display: flex;
+    text-decoration: none;
+}
+.menu a{
+    /* text-align: center; */
+    font-size: 1.2em;
+    
+}
