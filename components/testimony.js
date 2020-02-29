@@ -8,8 +8,8 @@ class testimony extends React.Component{
             <div className="container2">
                 <img src={testimonio} className="image2"></img>
                 <div className="text">
-                    <h3>The lost throne.</h3>
-                    <p>It is a story of a lost treasure. In the book there are great and somewhat rare battles. </p>
+                    <h3>Testimony</h3>
+                    <p>I really didn't like this book because the characters die too fast.That is very bad in my opinion.</p>
                 </div>
 
 
