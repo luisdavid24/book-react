@@ -15,6 +15,7 @@ import Dead from "./components/dead";
 import Mouse from "./components/mouse";
 import Daugther from "./components/daugther";
 import Throne from "./components/throne";
+import Testimony from "./components/testimony";
 const container = document.getElementById('app');
 
-ReactDOM.render(<Throne/>, container);
+ReactDOM.render(<Testimony/>, container);
