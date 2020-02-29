@@ -12,7 +12,7 @@ class daugther extends React.Component{
                 <img src={hija} className="image2"></img>
                 <div className="text">
                     <h3>Daughter of fortune.</h3>
-                    <p>it's a story about love.  </p>
+                    <p>it's a story about love.This is story begun in chile and finished in U.S.A.It is interesting book in my opinion. </p>
                 </div>
 
 
