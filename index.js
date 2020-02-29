@@ -18,4 +18,4 @@ import Throne from "./components/throne";
 import Testimony from "./components/testimony";
 const container = document.getElementById('app');
 
-ReactDOM.render(<Testimony/>, container);
+ReactDOM.render(<Book/>, container);

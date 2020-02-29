@@ -1,6 +1,6 @@
 .book{
    width: 13em;
-   cursor:pointer;
+   /* cursor:pointer; */
   
 }
 .container-text{
@@ -43,6 +43,25 @@
     margin-bottom: 2em;
     background-color: rgb(235, 233, 243);
     
+}
+.coverage{
+    background: rgb(255, 255, 255,.3);
+    /* background: rgba(0, 0,0, .4); */
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top:0;
+    display: none;
+
+}
+.container-book{
+    cursor:pointer;
+    position:relative;
+    display: block;
+}
+.container-book:hover .coverage{
+    display: flex;
 }
 @media screen and (max-width:767px){
     .image2{

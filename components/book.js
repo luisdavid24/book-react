@@ -14,11 +14,12 @@ class book extends React.Component{
     render(){
         return( 
             <div className="container">
-                <div >
+                <div className="container-book">
                     <img src={psicoanalista} className="book"></img>
                     <div className="container-text">
                         <p>This is the best book in the word in my opinion.</p>
                     </div>
+                    <span className="coverage"></span>
                 </div>
                 <div >
                     <img src={psicoanalista2} className="book"></img>
