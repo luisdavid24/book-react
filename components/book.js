@@ -21,59 +21,68 @@ class book extends React.Component{
                     </div>
                     <span className="coverage"></span>
                 </div>
-                <div >
+                <div className="container-book">
                     <img src={psicoanalista2} className="book"></img>
                     <div className="container-text">
                         <p>This is the best book in the word in my opinion.</p>
                     </div>
+                    <span className="coverage"></span>
                 </div>
-                <div >
+                <div className="container-book">
                     <img src={tiempo} className="book tiempo" ></img>
                     <div className="container-text">
                         <p>This is the best book in the word in my opinion.</p>
                     </div>
+                    <span className="coverage"></span>
                 </div>
-                <div >
+                <div className="container-book">
                     <img src={loco} className="book loco"></img>
                     <div className="container-text">
                         <p>This is the best book in the word in my opinion.</p>
                     </div>
+                    <span className="coverage"></span>
                 </div>
-                <div >
+                <div className="container-book">
                     <img src={cianuro} className="book"></img>
                     <div className="container-text">
                         <p>This is the best book in the word in my opinion.</p>
                     </div>
+                    <span className="coverage"></span>
                 </div>
-                <div >
+                <div className="container-book">
                     <img src={cita} className="book"></img>
                     <div className="container-text">
                         <p>This is the best book in the word in my opinion.</p>
                     </div>
+                    <span className="coverage"></span>
                 </div>
-                <div >
+                <div className="container-book">
                     <img src={raton} className="book"></img>
                     <div className="container-text">
                         <p>This is the best book in the word in my opinion.</p>
                     </div>
+                    <span className="coverage"></span>
                 </div>
-                <div >
+                <div className="container-book">
                     <img src={hija} className="book"></img>
                     <div className="container-text">
                         <p>This is the best book in the word in my opinion.</p>
                     </div>
+                    <span className="coverage"></span>
                 </div>
-                <div >
+                <div className="container-book">
                     <img src={trono} className="book"></img>
                     <div className="container-text">
                         <p>This is the best book in the word in my opinion.</p>
                     </div>
+                    <span className="coverage"></span>
                 </div>
-                <div >
+                <div className="container-book">
                     <img src={testimonio} className="book"></img>
                     <div className="container-text">
                         <p>This is the best book in the word in my opinion.</p>
                     </div>
+                    <span className="coverage"></span>
                 </div>
 
             </div>
