@@ -3,9 +3,7 @@ import "./styles/book.css";
 
 
 import raton from "../images/raton.jpg";
-// import hija from "../images/hija.jpg";
-// import trono from "../images/trono.jpg";
-// import testimonio from "../images/testimonio.jpg";
+
 class mouse extends React.Component{
     render(){
         return( 

@@ -13,6 +13,7 @@ import Crazy from "./components/crazy";
 import Cyanide from "./components/cyanide";
 import Dead from "./components/dead";
 import Mouse from "./components/mouse";
+import Daugther from "./components/daugther";
 const container = document.getElementById('app');
 
-ReactDOM.render(<Mouse/>, container);
+ReactDOM.render(<Daugther/>, container);
