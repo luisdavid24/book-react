@@ -10,8 +10,8 @@ class throne extends React.Component{
             <div className="container2">
                 <img src={trono} className="image2"></img>
                 <div className="text">
-                    <h3>Daughter of fortune.</h3>
-                    <p>it's a story about love.This is story begun in chile and finished in U.S.A.It is interesting book in my opinion. </p>
+                    <h3>The lost throne.</h3>
+                    <p>It is a story of a lost treasure. In the book there are great and somewhat rare battles. </p>
                 </div>
 
 
