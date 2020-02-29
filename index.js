@@ -14,6 +14,7 @@ import Cyanide from "./components/cyanide";
 import Dead from "./components/dead";
 import Mouse from "./components/mouse";
 import Daugther from "./components/daugther";
+import Throne from "./components/throne";
 const container = document.getElementById('app');
 
-ReactDOM.render(<Daugther/>, container);
+ReactDOM.render(<Throne/>, container);
