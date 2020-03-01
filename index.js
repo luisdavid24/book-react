@@ -16,6 +16,7 @@ import Mouse from "./components/mouse";
 import Daugther from "./components/daugther";
 import Throne from "./components/throne";
 import Testimony from "./components/testimony";
+import Footer from "./components/footer";
 const container = document.getElementById('app');
 
-ReactDOM.render(<Book/>, container);
+ReactDOM.render(<Footer/>, container);
