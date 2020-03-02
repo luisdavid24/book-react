@@ -17,6 +17,7 @@ import Daugther from "./components/daugther";
 import Throne from "./components/throne";
 import Testimony from "./components/testimony";
 import Footer from "./components/footer";
+import Contact from "./components/contact";
 const container = document.getElementById('app');
 
-ReactDOM.render(<Footer/>, container);
+ReactDOM.render(<Contact/>, container);
