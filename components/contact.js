@@ -3,7 +3,9 @@ import React from "react";
 class contact extends React.Component{
     render(){
         return( 
-            <h1>gg</h1>
+            <div>
+                <h4>If you want to use my services, you can contact me through the following way.</h4>
+            </div>
                 
         )
     }
