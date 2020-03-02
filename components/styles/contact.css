@@ -1,0 +1,17 @@
+.container-contact{
+    /* width: 56em; */
+    width: 100vw;
+    background-color: rgb(234, 223, 245);
+    
+}
+.contact-img{
+    width: 15em;
+    margin:.5em;
+}
+.img-container{
+    display: flex;
+    justify-content: center;
+}
+h4{
+    justify-content: center;
+}
