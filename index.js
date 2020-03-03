@@ -20,4 +20,4 @@ import Footer from "./components/footer";
 import Contact from "./components/contact";
 const container = document.getElementById('app');
 
-ReactDOM.render(<Book/>, container);
+ReactDOM.render(<Contact/>, container);
