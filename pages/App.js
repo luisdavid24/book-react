@@ -1,6 +1,13 @@
 import React from "react";
 import {BrowserRouter, Switch,Route} from "react-router-dom";
 import Book from "../components/book";
+import Navar from "../components/navar";
+import Psicoanalista from "../components/psicoanalista";
+import Psicoanalista2 from "../components/psicoanalista2";
+import Tiempo from "../components/tiempo";
+import Crazy from "../components/crazy";
+import Cyanide from "../components/cyanide";
+import Dead from "../components/dead";
 // import NotFound from "../components/notFound";
 
 function App(){
@@ -9,9 +16,9 @@ function App(){
             <Layout>
                 <Switch>
                     <Route exact path="/Book" component={Book}/>
-                    <Route exact path="/Home/Cream" component={Cream}/>
-                    <Route exact path="/Home/Milk" component={Milk}/>
-                    <Route exact path="/Home/Water" component={Water}/>
+                    <Route exact path="/Book/Cream" component={Cream}/>
+                    <Route exact path="/Book/Milk" component={Milk}/>
+                    <Route exact path="/Book/Water" component={Water}/>
                     <Route component={NotFound}/>
                 </Switch>
             </Layout>
