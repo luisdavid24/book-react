@@ -9,6 +9,9 @@ import Crazy from "../components/crazy";
 import Cyanide from "../components/cyanide";
 import Dead from "../components/dead";
 import Mouse from "../components/mouse";
+import Daugther from "../components/daugther";
+import Throne from "../components/throne";
+
 // import NotFound from "../components/notFound";
 
 function App(){
