@@ -21,4 +21,11 @@ h4{
     justify-content: center;
     margin-bottom: 2em;
 }
-/* @media screen and (max-width:767px){} */
+@media screen and (max-width:790px){
+    .img-container{
+        display:block;
+    }
+    .contact-img{
+        width: 13em;
+    }
+}
