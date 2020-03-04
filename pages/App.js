@@ -8,6 +8,7 @@ import Tiempo from "../components/tiempo";
 import Crazy from "../components/crazy";
 import Cyanide from "../components/cyanide";
 import Dead from "../components/dead";
+import Mouse from "../components/mouse";
 // import NotFound from "../components/notFound";
 
 function App(){
