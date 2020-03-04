@@ -11,7 +11,9 @@ import Dead from "../components/dead";
 import Mouse from "../components/mouse";
 import Daugther from "../components/daugther";
 import Throne from "../components/throne";
-
+import Testimony from "../components/testimony";
+import Footer from "../components/footer";
+import Contact from "../components/contact";
 // import NotFound from "../components/notFound";
 
 function App(){
