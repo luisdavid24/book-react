@@ -14,6 +14,7 @@ import Throne from "../components/throne";
 import Testimony from "../components/testimony";
 import Footer from "../components/footer";
 import Contact from "../components/contact";
+import Layout from "../components/Layout";
 // import NotFound from "../components/notFound";
 
 function App(){
