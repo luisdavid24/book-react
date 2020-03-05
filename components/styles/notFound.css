@@ -1,3 +1,11 @@
 .found-container{
-    background-color: blueviolet;
+    background-color: rgb(245, 242, 251);
+    height: 100vw;
+    text-align: center;
+    
+}
+h1,
+h4
+{
+    padding: .5em;
 }
