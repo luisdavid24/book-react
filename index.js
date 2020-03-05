@@ -18,6 +18,7 @@ import Throne from "./components/throne";
 import Testimony from "./components/testimony";
 import Footer from "./components/footer";
 import Contact from "./components/contact";
+import Home from "./components/home";
 const container = document.getElementById('app');
 
-ReactDOM.render(<Contact/>, container);
+ReactDOM.render(<Home/>, container);
