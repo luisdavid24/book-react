@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom';
 import Navar from "./components/navar";
 // import App from "./pages/App";
 import 'bootstrap/dist/css/bootstrap.css';
-// import NotFound from "./components/notFound";
+import NotFound from "./components/notFound";
 import Book from "./components/book";
 import Psicoanalista from "./components/psicoanalista";
 import Psicoanalista2 from "./components/psicoanalista2";
@@ -20,4 +20,4 @@ import Footer from "./components/footer";
 import Contact from "./components/contact";
 const container = document.getElementById('app');
 
-ReactDOM.render(<Contact/>, container);
+ReactDOM.render(<NotFound/>, container);
