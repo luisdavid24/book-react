@@ -20,6 +20,7 @@ h4{
     display: flex;
     justify-content: center;
     margin-bottom: 2em;
+    padding:.2em;
 }
 @media screen and (max-width:790px){
     .img-container{
@@ -27,5 +28,24 @@ h4{
     }
     .contact-img{
         width: 13em;
+    }
+}
+@media screen and (max-width:680px){
+    .contact-img{
+        width: 11em;
+    }
+}
+@media screen and (max-width:426px){
+    h4{
+        font-size: 1em;
+    }
+}
+@media screen and (max-width:376px){
+    h4{
+        font-size: .8em;
+        padding:1em;
+    }
+    .contact-img{
+        width: 6.5em;
     }
 }
