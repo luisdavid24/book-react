@@ -8,3 +8,8 @@
     border-radius: 44em;
     border:9px solid rgb(215, 188, 241);
 }
+@media screen and (max-width:590px){
+    .home-img{
+        width: 20em;
+    }
+}
