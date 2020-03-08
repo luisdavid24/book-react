@@ -1,6 +1,7 @@
 .home-container{
     background-color:rgb(245, 242, 251);
     height: 100vw;
+    width: 100vw;
     text-align: center;
     padding: 2em;
 }
@@ -11,5 +12,28 @@
 @media screen and (max-width:590px){
     .home-img{
         width: 20em;
+    }
+}
+@media screen and (max-width:530px){
+    .home-img{
+        width: 17em;
+    }
+}
+
+@media screen and (max-width:530px){
+    .home-img{
+        width: 14em;
+    }
+}
+
+@media screen and (max-width:430px){
+    .home-img{
+        width: 11em;
+    }
+    .home-container{
+        font-size: .9em;
+    }
+    h1{
+        font-size: 1.5em;
     }
 }
