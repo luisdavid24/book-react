@@ -5,5 +5,6 @@
     padding: 2em;
 }
 .home-img{
-    
+    border-radius: 44em;
+    border:9px solid rgb(215, 188, 241);
 }

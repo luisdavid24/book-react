@@ -7,7 +7,7 @@ class home extends React.Component{
             <div className="home-container">
                 <h1>MY BOOKS</h1>
                 <p>You will see all the books I have read or tried to read. I hope you like my website.</p>
-                <img  className="home-phontos"   src={Libro}/>
+                <img  className="home-img"   src={Libro}/>
             </div>
                 
         )
