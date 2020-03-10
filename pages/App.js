@@ -25,7 +25,7 @@ function App(){
                 <Switch>
                     <Route exact path="/Home" component={Home}/>
                     <Route exact path="/Home/Book" component={Book}/>
-                    {/* <Route exact path="/Book/Milk" component={Milk}/> */}
+                    <Route exact path="/Home/Book/Psicoanalista" component={Psicoanalista}/>
                     {/* <Route exact path="/Book/Water" component={Water}/> */}
                     <Route component={NotFound}/>
                 </Switch>
