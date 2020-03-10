@@ -1,8 +1,6 @@
 .container-contact{
-    /* width: 56em; */
-    width: 100vw;
-    height: 100vw;
-    /* background-color: rgb(234, 223, 245); */
+    
+    height: 40vw;
     background-color: rgb(245, 242, 251);
     
 }
