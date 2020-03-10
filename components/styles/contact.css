@@ -20,6 +20,12 @@ h4{
     margin-bottom: 2em;
     padding:.2em;
 }
+@media screen and (max-width:900px){
+    .container-contact{
+    
+        height: 70vw;
+    }
+}
 @media screen and (max-width:790px){
     .img-container{
         display:block;
@@ -27,15 +33,58 @@ h4{
     .contact-img{
         width: 13em;
     }
+    .container-contact{
+    
+        height: 55vw;
+    }
 }
 @media screen and (max-width:680px){
     .contact-img{
         width: 11em;
     }
+    .container-contact{
+    
+        height: 60vw;
+    }
+}
+@media screen and (max-width:578px){
+    .container-contact{
+    
+        height: 90vw;
+    }
+}
+@media screen and (max-width:515px){
+    .container-contact{
+    
+        height: 100vw;
+    }
+}
+@media screen and (max-width:470px){
+    .container-contact{
+    
+        height: 120vw;
+    }
 }
 @media screen and (max-width:426px){
     h4{
         font-size: 1em;
+    }
+    .container-contact{
+    
+        height: 120vw;
+    }
+}
+
+@media screen and (max-width:410px){
+    .container-contact{
+    
+        height: 130vw;
+    }
+}
+@media screen and (max-width:387px){
+    .container-contact{
+    
+        height: 190vw;
     }
 }
 @media screen and (max-width:376px){
@@ -45,5 +94,9 @@ h4{
     }
     .contact-img{
         width: 6.5em;
+    }
+    .container-contact{
+    
+        height: 90vw;
     }
 }
