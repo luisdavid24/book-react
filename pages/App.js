@@ -26,7 +26,15 @@ function App(){
                     <Route exact path="/Home" component={Home}/>
                     <Route exact path="/Home/Book" component={Book}/>
                     <Route exact path="/Home/Book/Psicoanalista" component={Psicoanalista}/>
-                    {/* <Route exact path="/Book/Water" component={Water}/> */}
+                    <Route exact path="/Home/Book/Psicoanalista2" component={Psicoanalista2}/>
+                    <Route exact path="/Home/Book/Tiempo" component={Tiempo}/>
+                    <Route exact path="/Home/Book/Crazy" component={Crazy}/>
+                    <Route exact path="/Home/Book/Cyanide" component={Cyanide}/>
+                    <Route exact path="/Home/Book/Dead" component={Dead}/>
+                    <Route exact path="/Home/Book/Mouse" component={Mouse}/>
+                    <Route exact path="/Home/Book/Daugther" component={Daugther}/>
+                    <Route exact path="/Home/Book/Throne" component={Throne}/>
+                    <Route exact path="/Home/Book/Daugther" component={Daugther}/>
                     <Route component={NotFound}/>
                 </Switch>
             </Layout>
