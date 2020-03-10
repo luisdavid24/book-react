@@ -1,6 +1,6 @@
 import React from 'react';
-import Navbar from "navar.js";
-import Footer from "footer.js";
+import Navbar from "./navar.js";
+import Footer from "./footer.js";
 
 function Layout(props) {
   

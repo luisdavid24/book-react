@@ -23,10 +23,10 @@ function App(){
         <BrowserRouter>
             <Layout>
                 <Switch>
-                    <Route exact path="/Book" component={Home}/>
-                    <Route exact path="/Book/Cream" component={Cream}/>
-                    <Route exact path="/Book/Milk" component={Milk}/>
-                    <Route exact path="/Book/Water" component={Water}/>
+                    <Route exact path="/Home" component={Home}/>
+                    <Route exact path="/Home/Book" component={Book}/>
+                    {/* <Route exact path="/Book/Milk" component={Milk}/> */}
+                    {/* <Route exact path="/Book/Water" component={Water}/> */}
                     <Route component={NotFound}/>
                 </Switch>
             </Layout>

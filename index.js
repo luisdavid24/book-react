@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 import Navar from "./components/navar";
-// import App from "./pages/App";
+import App from "./pages/App";
 import 'bootstrap/dist/css/bootstrap.css';
 import NotFound from "./components/notFound";
 import Book from "./components/book";
@@ -21,4 +21,4 @@ import Contact from "./components/contact";
 import Home from "./components/home";
 const container = document.getElementById('app');
 
-ReactDOM.render(<Home/>, container);
+ReactDOM.render(<App/>, container);
