@@ -7,13 +7,13 @@ class navar extends React.Component{
             <nav className="menu">
                 <ul>
                     <li className="title">
-                        <Link to="/Home">Home</Link>
+                        <Link to="/Home" className="link-a">Home</Link>
                     </li>
                     <li className="title">
-                        <Link to="/Home/Book">Book</Link>
+                        <Link to="/Home/Book" className="link-a">Book</Link>
                     </li>
                     <li className="title">
-                        <Link to="/Home/Contact">Contact</Link>
+                        <Link to="/Home/Contact" className="link-a">Contact</Link>
                     </li>
                     
                 </ul>
