@@ -9,9 +9,15 @@ class contact extends React.Component{
             <div className="container-contact">
                 <h4>If you want to use my services, you can contact me through the following way.</h4>
                 <div className="img-container">
-                    <img  className="contact-img" src={linkendin}></img>
-                    <img  className="contact-img"src={instagram}></img>
-                    <img className="contact-img" src={githup}></img>
+                    <a href="https://www.linkedin.com/in/david-l%C3%B3pez-11a1ab196/">
+                        <img  className="contact-img" src={linkendin}></img>
+                    </a>
+                    <a href="https://github.com/luisdavid24">
+                        <img  className="contact-img"src={instagram}></img>
+                    </a>
+                    <a href="https://github.com/luisdavid24"> 
+                        <img className="contact-img" src={githup}></img>
+                    </a>
                 </div>
             </div>
                 
