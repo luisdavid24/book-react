@@ -32,6 +32,7 @@ function App(){
                     <Route exact path="/Home/Book/Cyanide" component={Cyanide}/>
                     <Route exact path="/Home/Book/Dead" component={Dead}/>
                     <Route exact path="/Home/Book/Mouse" component={Mouse}/>
+                    <Route exact path="/Home/Book/Throne" component={Throne}/>
                     <Route exact path="/Home/Book/Daugther" component={Daugther}/>
                     <Route exact path="/Home/Book/Testimony" component={Testimony}/>
                     <Route exact path="/Home/Contact" component={Contact}/>

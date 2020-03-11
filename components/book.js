@@ -30,7 +30,7 @@ class book extends React.Component{
                     <div className="container-text">
                         <p>This is the best book in the word in my opinion.</p>
                     </div>
-                    <Link to="/Home/Book/Psicoanalista">
+                    <Link to="/Home/Book/Psicoanalista2">
                         <span className="coverage"></span>
                     </Link>
                 </div>
@@ -39,7 +39,7 @@ class book extends React.Component{
                     <div className="container-text">
                         <p>This is the best book in the word in my opinion.</p>
                     </div>
-                    <Link to="/Home/Book/Psicoanalista">
+                    <Link to="/Home/Book/Tiempo">
                         <span className="coverage"></span>
                     </Link>
                 </div>
@@ -48,7 +48,7 @@ class book extends React.Component{
                     <div className="container-text">
                         <p>This is the best book in the word in my opinion.</p>
                     </div>
-                    <Link to="/Home/Book/Psicoanalista">
+                    <Link to="/Home/Book/Crazy">
                         <span className="coverage"></span>
                     </Link>
                 </div>
@@ -57,7 +57,7 @@ class book extends React.Component{
                     <div className="container-text">
                         <p>This is the best book in the word in my opinion.</p>
                     </div>
-                    <Link to="/Home/Book/Psicoanalista">
+                    <Link to="/Home/Book/Cyanide">
                         <span className="coverage"></span>
                     </Link>
                 </div>
@@ -66,35 +66,45 @@ class book extends React.Component{
                     <div className="container-text">
                         <p>This is the best book in the word in my opinion.</p>
                     </div>
-                    <span className="coverage"></span>
+                    <Link to="/Home/Book/Dead">
+                        <span className="coverage"></span>
+                    </Link>
                 </div>
                 <div className="container-book">
                     <img src={raton} className="book"></img>
                     <div className="container-text">
                         <p>This is the best book in the word in my opinion.</p>
                     </div>
-                    <span className="coverage"></span>
+                    <Link to="/Home/Book/Mouse">
+                        <span className="coverage"></span>
+                    </Link>
                 </div>
                 <div className="container-book">
                     <img src={hija} className="book"></img>
                     <div className="container-text">
                         <p>This is the best book in the word in my opinion.</p>
                     </div>
-                    <span className="coverage"></span>
+                    <Link to="/Home/Book/Daugther">
+                        <span className="coverage"></span>
+                    </Link>
                 </div>
                 <div className="container-book">
                     <img src={trono} className="book"></img>
                     <div className="container-text">
                         <p>This is the best book in the word in my opinion.</p>
                     </div>
-                    <span className="coverage"></span>
+                    <Link to="/Home/Book/Throne">
+                        <span className="coverage"></span>
+                    </Link>
                 </div>
                 <div className="container-book">
                     <img src={testimonio} className="book"></img>
                     <div className="container-text">
                         <p>This is the best book in the word in my opinion.</p>
                     </div>
-                    <span className="coverage"></span>
+                    <Link to="/Home/Book/Testimony">
+                        <span className="coverage"></span>
+                    </Link>
                 </div>
 
             </div>
