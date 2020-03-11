@@ -10,6 +10,7 @@ import raton from "../images/raton.jpg";
 import hija from "../images/hija.jpg";
 import trono from "../images/trono.jpg";
 import testimonio from "../images/testimonio.jpg";
+import { Link } from 'react-router-dom';
 class book extends React.Component{
     render(){
         return( 
@@ -19,35 +20,46 @@ class book extends React.Component{
                     <div className="container-text">
                         <p>This is the best book in the word in my opinion.</p>
                     </div>
-                    <span className="coverage"></span>
+                    <Link to="/Home/Book/Psicoanalista">
+                        <span className="coverage"></span>
+                    </Link>
+                    
                 </div>
                 <div className="container-book">
                     <img src={psicoanalista2} className="book"></img>
                     <div className="container-text">
                         <p>This is the best book in the word in my opinion.</p>
                     </div>
-                    <span className="coverage"></span>
+                    <Link to="/Home/Book/Psicoanalista">
+                        <span className="coverage"></span>
+                    </Link>
                 </div>
                 <div className="container-book">
                     <img src={tiempo} className="book tiempo" ></img>
                     <div className="container-text">
                         <p>This is the best book in the word in my opinion.</p>
                     </div>
-                    <span className="coverage"></span>
+                    <Link to="/Home/Book/Psicoanalista">
+                        <span className="coverage"></span>
+                    </Link>
                 </div>
                 <div className="container-book">
                     <img src={loco} className="book loco"></img>
                     <div className="container-text">
                         <p>This is the best book in the word in my opinion.</p>
                     </div>
-                    <span className="coverage"></span>
+                    <Link to="/Home/Book/Psicoanalista">
+                        <span className="coverage"></span>
+                    </Link>
                 </div>
                 <div className="container-book">
                     <img src={cianuro} className="book"></img>
                     <div className="container-text">
                         <p>This is the best book in the word in my opinion.</p>
                     </div>
-                    <span className="coverage"></span>
+                    <Link to="/Home/Book/Psicoanalista">
+                        <span className="coverage"></span>
+                    </Link>
                 </div>
                 <div className="container-book">
                     <img src={cita} className="book"></img>
