@@ -1,4 +1,4 @@
-import React from "react";
+import React ,{Lazy,Suspense}from "react";
 import "./styles/book.css";
 import psicoanalista from "../images/psicoanalista.jpg";
 import psicoanalista2 from "../images/psicoanalista2.gif";
@@ -11,19 +11,19 @@ import hija from "../images/hija.jpg";
 import trono from "../images/trono.jpg";
 import testimonio from "../images/testimonio.jpg";
 import { Link } from 'react-router-dom';
+
 class book extends React.Component{
-    render(){
-        return( 
+    render() {
+        return(
             <div className="container">
                 <div className="container-book">
-                    <img src={psicoanalista} className="book"></img>
+                   <img src={psicoanalista} className="book"></img>
                     <div className="container-text">
                         <p>This is the best book in the word in my opinion.</p>
                     </div>
                     <Link to="/Home/Book/Psicoanalista">
                         <span className="coverage"></span>
                     </Link>
-                    
                 </div>
                 <div className="container-book">
                     <img src={psicoanalista2} className="book"></img>
@@ -107,7 +107,10 @@ class book extends React.Component{
                     </Link>
                 </div>
 
+                
             </div>
+
+            
         )
     }
 

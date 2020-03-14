@@ -12,7 +12,7 @@ class contact extends React.Component{
                     <a href="https://www.linkedin.com/in/david-l%C3%B3pez-11a1ab196/">
                         <img  className="contact-img" src={linkendin}></img>
                     </a>
-                    <a href="https://github.com/luisdavid24">
+                    <a href="http://instagram.com/ldlm_2412">
                         <img  className="contact-img"src={instagram}></img>
                     </a>
                     <a href="https://github.com/luisdavid24"> 

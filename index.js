@@ -19,6 +19,7 @@ import Testimony from "./components/testimony";
 import Footer from "./components/footer";
 import Contact from "./components/contact";
 import Home from "./components/home";
+import Loading from "./spinner/loading";
 const container = document.getElementById('app');
 
-ReactDOM.render(<App/>, container);
+ReactDOM.render(<Loading/>, container);
