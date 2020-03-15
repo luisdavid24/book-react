@@ -1,22 +1,25 @@
 import React from "react";
 import "./styles/loading.css";
-import Spinner from "./spinner";
-const loading = ()=>{
+import userSpinner from "./useSpinner";
+// import Spinner from "./spinner";
+const App = ()=>{
+    const[spinner,showSpinner,hideSpinner]=userSpinner();
     const fakeFectch= ()=>{
-        console.log("Fetching...");
+        showSpinner();
+        setTimeout(()=>hideSpinner(),3000)
     };
     return( 
-        <div>
+        <div className="App">
             <div className="Input-group">
                 <label htmlFor="overlay">overlay</label>
                 <input type="checkbox" name="overlay"/>
             </div>
             <button onClick={fakeFectch}>Fake fetch</button>
-            <Spinner/>
+            {spinner}
         </div>
                 
     );
     
 
 }
-export default loading; 
+export default App; 
