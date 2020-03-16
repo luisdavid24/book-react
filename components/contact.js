@@ -2,6 +2,7 @@ import React from "react";
 import linkendin from "../images/linkedin.jpg";
 import instagram from "../images/instagram.PNG";
 import githup from "../images/githup.PNG";
+import Mail from "../images/Correo.PNG"
 import "./styles/contact.css";
 class contact extends React.Component{
     render(){
@@ -17,6 +18,9 @@ class contact extends React.Component{
                     </a>
                     <a href="https://github.com/luisdavid24"> 
                         <img className="contact-img" src={githup}></img>
+                    </a>
+                    <a href="mailto:david12.29@hotmail.com"> 
+                        <img className="contact-img" src={Mail}></img>
                     </a>
                 </div>
             </div>

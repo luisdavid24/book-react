@@ -12,7 +12,9 @@ const App = ()=>{
         <div className="App">
             <div className="Input-group">
                 <label htmlFor="overlay">overlay</label>
-                <input type="checkbox" name="overlay"/>
+                <input 
+                type="checkbox" 
+                name="overlay"/>
             </div>
             <button onClick={fakeFectch}>Fake fetch</button>
             {spinner}

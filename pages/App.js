@@ -17,6 +17,7 @@ import Contact from "../components/contact";
 import Layout from "../components/Layout";
 import NotFound from "../components/notFound";
 import Home from "../components/home";
+import Library from "./library";
 
 function App(){
     return (
@@ -24,7 +25,7 @@ function App(){
             <Layout>
                 <Switch>
                     <Route exact path="/Home" component={Home}/>
-                    <Route exact path="/Home/Book" component={Book}/>
+                    <Route exact path="/Home/Book" component={Library}/>
                     <Route exact path="/Home/Book/Psicoanalista" component={Psicoanalista}/>
                     <Route exact path="/Home/Book/Psicoanalista2" component={Psicoanalista2}/>
                     <Route exact path="/Home/Book/Tiempo" component={Tiempo}/>
