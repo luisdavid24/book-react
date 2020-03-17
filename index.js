@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-
-import Componente from "./components/componente-de-composicion";
+import Componente from "./components/componente-de-composicion"
 
 const container = document.getElementById('app');
 

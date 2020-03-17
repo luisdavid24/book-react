@@ -17,16 +17,26 @@ import Contact from "../components/contact";
 import Layout from "../components/Layout";
 import NotFound from "../components/notFound";
 import Home from "../components/home";
+import Library from "./library";
 
 function App(){
     return (
         <BrowserRouter>
             <Layout>
                 <Switch>
-                    <Route exact path="/Book" component={Home}/>
-                    <Route exact path="/Book/Cream" component={Cream}/>
-                    <Route exact path="/Book/Milk" component={Milk}/>
-                    <Route exact path="/Book/Water" component={Water}/>
+                    <Route exact path="/Home" component={Home}/>
+                    <Route exact path="/Home/Book" component={Library}/>
+                    <Route exact path="/Home/Book/Psicoanalista" component={Psicoanalista}/>
+                    <Route exact path="/Home/Book/Psicoanalista2" component={Psicoanalista2}/>
+                    <Route exact path="/Home/Book/Tiempo" component={Tiempo}/>
+                    <Route exact path="/Home/Book/Crazy" component={Crazy}/>
+                    <Route exact path="/Home/Book/Cyanide" component={Cyanide}/>
+                    <Route exact path="/Home/Book/Dead" component={Dead}/>
+                    <Route exact path="/Home/Book/Mouse" component={Mouse}/>
+                    <Route exact path="/Home/Book/Throne" component={Throne}/>
+                    <Route exact path="/Home/Book/Daugther" component={Daugther}/>
+                    <Route exact path="/Home/Book/Testimony" component={Testimony}/>
+                    <Route exact path="/Home/Contact" component={Contact}/>
                     <Route component={NotFound}/>
                 </Switch>
             </Layout>
