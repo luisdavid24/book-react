@@ -34,3 +34,8 @@ constructor(props) {
     super(props);
     this.state = {date: new Date()};
 }
+//Los componentes de clase siempre deben llamar al constructor base con props
+ReactDOM.render(
+    <Clock />,
+    document.getElementById('root')
+);
