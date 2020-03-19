@@ -2,7 +2,7 @@ class Clock extends React.Component {
   constructor(props) {
     super(props);
     this.state = {date: new Date()};
-  }
+  }// Como Clock necesita mostrar la hora actual, se inicializa this.statecon un objeto que incluye la hora actual
 
   componentDidMount() {
     this.timerID = setInterval(
@@ -18,7 +18,7 @@ class Clock extends React.Component {
   tick() {
     this.setState({
       date: new Date()
-    }); //implementaremos un método llamado tick()que el Clockcomponente se ejecutará cada segundo.
+    }); //implementaremos un método llamado tick()que el Clock componente se ejecutará cada segundo.
   }//Se utilizará this.setState()para programar actualizaciones para el estado local del componente
 
   render() {
