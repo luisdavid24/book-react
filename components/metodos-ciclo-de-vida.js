@@ -5,7 +5,7 @@ class Clock extends React.Component {
     }
   
     componentDidMount() {
-    }
+    }//método se ejecuta después de que la salida del componente se haya procesado en el DOM.
   
     componentWillUnmount() {
     }
@@ -19,3 +19,12 @@ class Clock extends React.Component {
       );
     }
   }
+// ---------------------------------------------------
+componentDidMount() {
+  this.timerID = setInterval(
+    () => this.tick(),
+    1000
+  );
+}
+//Este es un buen lugar para configurar un temporizador
+//Observe cómo guardamos la ID del temporizador directamente en this( this.timerID).
