@@ -23,3 +23,6 @@ componentDidMount() {
       });
     });
 }
+
+// La fusión es poco profunda, por lo que this.setState({comments})
+// deja this.state.postsintacta, pero reemplaza por completo this.state.comments
