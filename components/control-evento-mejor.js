@@ -12,7 +12,7 @@ class LoginControl extends React.Component {
   
     handleLogoutClick() {
       this.setState({isLoggedIn: false});
-    }
+    }//Aqui se cambia el estado de true a false (login y no login).
   
     render() {
       const isLoggedIn = this.state.isLoggedIn;
@@ -22,13 +22,13 @@ class LoginControl extends React.Component {
         button = <LogoutButton onClick={this.handleLogoutClick} />;
       } else {
         button = <LoginButton onClick={this.handleLoginClick} />;
-      }
+      }//En esta seccion se crea la variable button la cual mostrar un diferente boton segun el estado.
   
       return (
         <div>
           <Greeting isLoggedIn={isLoggedIn} />
           {button}
-        </div>
+        </div>//En esta seccion se une todo el boton y el mensaje.
       );
     }
   }
@@ -47,7 +47,7 @@ class LoginControl extends React.Component {
       return <UserGreeting />;
     }
     return <GuestGreeting />;
-  }
+  }//En esta seccion se hace la parte del mensaje de bienvenida o despedida.
   
   function LoginButton(props) {
     return (
@@ -56,7 +56,6 @@ class LoginControl extends React.Component {
       </button>
     );
   }
-  
   function LogoutButton(props) {
     return (
       <button onClick={props.onClick}>
