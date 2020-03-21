@@ -4,7 +4,7 @@ class LoginControl extends React.Component {
       this.handleLoginClick = this.handleLoginClick.bind(this);
       this.handleLogoutClick = this.handleLogoutClick.bind(this);
       this.state = {isLoggedIn: false};
-    }
+    }//estas seccion se maneja el estado del boton y del mensaje.
   
     handleLoginClick() {
       this.setState({isLoggedIn: true});
@@ -62,7 +62,8 @@ class LoginControl extends React.Component {
         Logout
       </button>
     );
-  }
+  }//La funcion LogoutButton y LoginButton son un boton, se elegira uno o el otro segun sea la necesidad.
+  //en onClick se manda el evento de click para luego analizar si dio false o true.
   
   ReactDOM.render(
     <LoginControl />,
