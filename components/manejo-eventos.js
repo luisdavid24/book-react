@@ -26,7 +26,7 @@ class Toggle extends React.Component {
       this.state = {isToggleOn: true};
   
       // This binding is necessary to make `this` work in the callback
-      this.handleClick = this.handleClick.bind(this);
+      this.handleClick = this.handleClick.bind(this);//el bind() crea una nueva funcion la asigna el this el valor entrago.
     }//Este enlace es necesario para que `this` funcione en la devolución de llamada
   
     handleClick() {
@@ -39,7 +39,7 @@ class Toggle extends React.Component {
       return (
         <button onClick={this.handleClick}>
           {this.state.isToggleOn ? 'ON' : 'OFF'}
-        </button>
+        </button>//en la parte de this.state.isToggleOn esta mostrando un elemento el cual es dinamico y cambio segun el evento.
       );
     }
   }
