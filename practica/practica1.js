@@ -15,21 +15,43 @@ class Practica1 extends React.Component{
     }
 
     render(){
+        const isLogin=this.state.isLogin;
+        let Boton;
+        if(isLogin){
+            Boton=<BotonDespues onClick={this.buttonLogout}/>
+        }else{
+            Boton=<BotonAntes onClick={this.buttonLogin}/>
+        }
         return(
             <div className="container">
                 <h1>Hello, this is my first practice</h1>
-                {text}
+                {validacionText}
                 <Boton />
             </div>
 
         );
     }
 }
+function validacionText(props){
+    const isLogin=props.isLogin;
+    if(isLogin){
+        return <textDespues/>;
+    }else{
+        return<textAntes/>;
+    }
 
-function Boton(){
+}
+function BotonAntes(){
     return(
         <div>
             <button onClick={this.props.onClick}> Touch me,please</button>
+        </div>
+    )
+}
+function BotonDespues(){
+    return(
+        <div>
+            <button onClick={this.props.onClick}> GOOD.</button>
         </div>
     )
 }
