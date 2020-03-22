@@ -6,4 +6,5 @@ render() {
     </div>
   );
 }
-//En este codigo se analiza si el elemento es currently o not usando esta sintaxis {isLoggedIn ? 'currently' : 'not'}.
+//En este codigo se analiza si el elemento es currently o not 
+//usando esta sintaxis {isLoggedIn ? 'currently' : 'not'}.

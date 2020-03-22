@@ -1,4 +1,4 @@
-//Reemplazar this.props.datecon this.state.dateen el render()método
+//Reemplazar this.props.date con this.state.date en el render()método
 class Clock extends React.Component {
     render() {
       return (
